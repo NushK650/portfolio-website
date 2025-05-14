@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div >
-      <div className="py-20 h-full text-center bg-[url('./hero.png')]">
+      <div className="py-20 h-full text-center bg-[url('./Hero.png')]">
         <div className="container mx-auto">
           <h1 className="text-4xl font-bold text-slate-700 mb-4">
             Hi, I'm Tanush Kumar
