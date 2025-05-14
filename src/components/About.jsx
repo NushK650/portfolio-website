@@ -17,7 +17,7 @@ const skills = [
 
 function About() {
   return (
-    <section className="py-16 bg-gray-50">
+    <section id="about" className="py-16 bg-gray-50">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-semibold text-gray-800 mb-6">About Me</h2>
         <p className="text-lg text-gray-700">
@@ -32,7 +32,7 @@ function About() {
           built to stand the test of time.
         </p>
 
-        <h2 className="text-3xl font-semibold text-gray-800 mb-6 mt-12">
+        <h2 id="skills" className="text-3xl font-semibold text-gray-800 mb-6 mt-12">
           Skills
         </h2>
         <div className="grid grid-cols-6  gap-10">

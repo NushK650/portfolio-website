@@ -1,9 +1,9 @@
-// src/components/Projects.js
+import { motion } from "motion/react"
 import React from 'react';
 
 function Projects() {
   return (
-    <section className="py-16 bg-white">
+    <section id="project" className="py-16 bg-white">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-semibold text-gray-800 mb-8 text-center">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
